@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "unsuperlearn"
+version = "0.1.0"
+description = ""
+authors = ["Matt H."]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+bokeh = "^3.0.3"
+jupyter = "^1.0"
+jupyter_bokeh = "^1"
+numpy = "^1.24.0"
+seaborn = "^0"
+matplotlib = "^3"
+python = ">=3.10.8,<3.11"
+pandas = "^1.5.2"
+scipy = "^1.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
